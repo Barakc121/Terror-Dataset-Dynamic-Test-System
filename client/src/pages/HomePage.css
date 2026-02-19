@@ -1,0 +1,83 @@
+:root {
+    background-color: rgba(168, 166, 164, 0.26);
+    gap: 10px;
+
+}
+
+.navbar {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    top: 0;
+    background-color: rgba(90, 87, 83, 0.26);
+    margin-top: 5px;
+}
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* top: 0; */
+    background-color: rgb(209, 206, 203);
+    max-width: 750px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline 0.3px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: #1b5e20;
+}
+
+.admin {
+    justify-content: center;
+    /* top: 0; */
+    background-color: rgb(209, 206, 203);
+    max-width: 750px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-admin {
+    background-color: #c6a6d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    border:  2.5px solid black;
+}
+
+.from{
+  display: block;
+  background-color: #859486;
+    justify-content: center;
+    text-decoration: underline 0.3px;
+}
